@@ -1,0 +1,12 @@
+/* PLaying around with styling */
+.signUp {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    border: 1px solid red;
+}
+    .signUp .row {
+        display: flex;
+        width: 50%;
+        border: 1px solid black;
+    }
