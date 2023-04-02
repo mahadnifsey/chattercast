@@ -1,12 +1,18 @@
 /* PLaying around with styling */
-.signUp {
-    display: flex;
-    justify-content: center;
-    height: 50vh;
-    border: 1px solid red;
+
+
+/* Media Queries */
+/* *************** */
+/* For large Screens */
+@media (max-width: 991.98px) {
+    .signUp a{
+        color:green;
+      }
 }
-    .signUp .row {
-        display: flex;
-        width: 50%;
-        border: 1px solid black;
-    }
+
+/* For small Screens */
+@media (max-width: 575.98px) {
+    .signUp a{
+        color:red;
+      }
+}
